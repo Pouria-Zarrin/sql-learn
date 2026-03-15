@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS compounds;
+
 CREATE TABLE compounds (
     id INTEGER PRIMARY KEY,
     name TEXT NOT NULL,
